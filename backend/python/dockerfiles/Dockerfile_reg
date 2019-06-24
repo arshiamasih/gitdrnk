@@ -1,0 +1,13 @@
+FROM python:3.6-alpine
+MAINTAINER Russell Tan
+COPY ./gitdrnk /app
+COPY ./gitdrnk/requirements.txt /app
+WORKDIR /app
+RUN apk add --no-cache python3
+RUN apk add --no-cache python3-dev
+RUN apk add --no-cache gcc
+RUN apk add --no-cache musl-dev
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+EXPOSE 5000
+CMD [ "python", "gitdrnk.py" ]

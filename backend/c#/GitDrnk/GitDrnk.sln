@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitDrnk", "GitDrnk\GitDrnk.csproj", "{D98E6101-DD2D-4FCD-9366-23E4035F178B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostTest", "Tests\HostTest\HostTest.csproj", "{63B33F8A-59CF-474A-9E20-D567BC55E735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitDrnk.Game", "GitDrnk.Game\GitDrnk.Game.csproj", "{51C47473-639C-402E-858D-0596C59B8733}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D98E6101-DD2D-4FCD-9366-23E4035F178B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98E6101-DD2D-4FCD-9366-23E4035F178B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98E6101-DD2D-4FCD-9366-23E4035F178B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98E6101-DD2D-4FCD-9366-23E4035F178B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B33F8A-59CF-474A-9E20-D567BC55E735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B33F8A-59CF-474A-9E20-D567BC55E735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B33F8A-59CF-474A-9E20-D567BC55E735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B33F8A-59CF-474A-9E20-D567BC55E735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C47473-639C-402E-858D-0596C59B8733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C47473-639C-402E-858D-0596C59B8733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C47473-639C-402E-858D-0596C59B8733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C47473-639C-402E-858D-0596C59B8733}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31D34284-B147-4CA2-829A-74B46965CD20}
+	EndGlobalSection
+EndGlobal
